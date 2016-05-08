@@ -1,0 +1,36 @@
+.changing-divs {
+    border:#000 1px solid;
+    width:100%;
+    height:300px;
+}
+
+.margin-top-20 {
+    margin-top:20px;
+}
+
+.big-div {
+    width:120%;
+    height:400px;
+}
+
+.small-div {
+    width:70%;
+    height:200px;
+}
+
+.animate {
+    transition:all 0.5s ease-in-out;
+    transform:rotate(360deg) scale(3);
+    background-color:purple;
+}
+
+.overlay {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index:9999;
+    display:none;
+}
