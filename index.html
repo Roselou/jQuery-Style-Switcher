@@ -6,7 +6,11 @@
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+        <script src="jquery_style.js"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -17,7 +21,7 @@
             </h1>
 
             <div class="row margin-top-20">
-                <div class="col-sm-4">
+                <div class="col-sm-4" >
                     <button id="change-red" class="btn btn-danger btn-block">Change Red</button>
                 </div>
                 <div class="col-sm-4">
@@ -30,13 +34,13 @@
 
             <div class="row margin-top-20">
                 <div class="col-sm-4">
-                    <div class="changing-divs"></div>
+                    <div class="changing-divs" id = "nowred"></div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="changing-divs"></div>
+                    <div class="changing-divs" id = "nowgreen"></div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="changing-divs"></div>
+                    <div class="changing-divs" id = "nowblue"></div>
                 </div>
             </div>
 
@@ -54,10 +58,10 @@
 
             <div class="row margin-top-20">
                 <div class="col-sm-4">
-                    <div class="changing-divs"></div>
+                    <div class="changing-divs" id = "nowbig"></div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="changing-divs"></div>
+                    <div class="changing-divs" id = "nowsmall"></div>
                 </div>
                 <div class="col-sm-4">
                     <div class="changing-divs"></div>
